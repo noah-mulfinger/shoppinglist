@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="title_activity_create_shopping_item">Create New Item</string>
+    <string name="clear_action_text">Clear</string>
+    <string name="sort_action_text">Sort</string>
+    <string name="help_action_text">Help</string>
+    <string name="about_action_text">About</string>
+    <string name="delete_text">Delete</string>
+    <string name="edit_text">Edit</string>
+    <string name="item_name_edit_text">Item name</string>
+    <string name="item_type_edit_text">Item Type:</string>
+    <string name="price_edit_text">Estimated Price</string>
+    <string name="description_edit_text">Description</string>
+    <string name="checkbox_text">Purchased</string>
+    <string name="save_button_text">Save</string>
+    <string name="empty_list_text">Empty Shopping List!</string>
+    <string name="content_desc_item_type">Icon showing item type.</string>
+    <string name="content_desc_splash">Splash image</string>
+</resources>

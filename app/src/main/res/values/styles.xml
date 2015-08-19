@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="createNewItem" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:windowBackground">@color/item_background</item>
+        <item name="android:editTextColor">@color/text_black</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textAppearanceButton">@color/text_black</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name ="PopupMenu" parent="Theme.AppCompat.Light">
+        <item name="background">@android:color/white</item>
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>
